@@ -1,0 +1,10 @@
+cohere 
+tiktoken 
+openai 
+langchain 
+langchain_experimental  
+pypdf 
+chromadb 
+langchainhub
+fastapi
+uvicorn
