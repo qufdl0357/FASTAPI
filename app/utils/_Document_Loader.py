@@ -171,7 +171,7 @@ def _Modules_PyPDFLoader(human_input="what is this about"):
 
   llm = ChatOpenAI()
 
-  loader = PyPDFLoader("./(주)원익큐엔씨_상세기업정보보고서.pdf")
+  loader = PyPDFLoader("./report.pdf")
   pages = loader.load()
   print(pages[0].metadata)
 
@@ -232,7 +232,7 @@ def _Modules_PyMuPDFLoader(human_input="what is this about"):
   from langchain.document_loaders import PyMuPDFLoader
 
 
-  loader = PyMuPDFLoader("./(주)원익큐엔씨_상세기업정보보고서.pdf")
+  loader = PyMuPDFLoader("./report.pdf")
 
   data = loader.load()
 
